@@ -36,13 +36,16 @@ export default function LoveLetter() {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          background: url("https://i.ibb.co/JjShtxx9/Chat-GPT-Image-Oct-20-2025-07-29-19-PM.png") repeat;
+          /* --- ✨ ĐÂY LÀ DÒNG ĐÃ THAY ĐỔI --- */
+          background: url("/hinh.png") repeat;
           background-size: 220px 220px;
           background-position: center;
           padding: 24px;
           position: relative;
           filter: brightness(1.02);
         }
+
+        /* ... (phần code còn lại giữ nguyên) ... */
 
         .envlope-wrapper {
           --envelope-width: clamp(220px, 70vw, 280px);
@@ -104,7 +107,6 @@ export default function LoveLetter() {
           display: flex;
           justify-content: center;
           align-items: center;
-          /* --- ✨ ĐÂY LÀ DÒNG ĐÃ THAY ĐỔI --- */
           font-size: clamp(1rem, 4vw, 2rem);
         }
 
@@ -202,17 +204,15 @@ export default function LoveLetter() {
         }
 
         @keyframes fadeIn {
-  from {
-    opacity: 0;
-    /* Bắt đầu từ vị trí giữa và dịch xuống 6px */
-    transform: translate(-50%, -50%) translateY(6px);
-  }
-  to {
-    opacity: 1;
-    /* Kết thúc ở vị trí giữa hoàn hảo */
-    transform: translate(-50%, -50%) translateY(0);
-  }
-}
+          from {
+            opacity: 0;
+            transform: translate(-50%, -50%) translateY(6px);
+          }
+          to {
+            opacity: 1;
+            transform: translate(-50%, -50%) translateY(0);
+          }
+        }
 
         @media (max-width: 500px) {
           .lang-menu {
