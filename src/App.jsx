@@ -1,29 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function LoveLetter() {
   const [isOpen, setIsOpen] = useState(false);
-  const [showLangMenu, setShowLangMenu] = useState(false);
-  const [selectedLang, setSelectedLang] = useState(null);
+  const [showLetter, setShowLetter] = useState(false);
 
   const onEnvelopeClick = () => setIsOpen(!isOpen);
-  const closeAll = () => {
-    setIsOpen(false);
-    setShowLangMenu(false);
-    setSelectedLang(null);
+
+  const onLetterClick = (e) => {
+    e.stopPropagation();
+    if (isOpen) {
+      setShowLetter(true);
+    }
   };
 
-  useEffect(() => {
-    let timer;
-    if (isOpen) {
-      timer = setTimeout(() => setShowLangMenu(true), 2000);
-    } else {
-      setShowLangMenu(false);
-      setSelectedLang(null);
-    }
-    return () => timer && clearTimeout(timer);
-  }, [isOpen]);
-
-  const handleLangSelect = (lang) => setSelectedLang(lang);
+  const closeAll = () => {
+    setIsOpen(false);
+    setShowLetter(false);
+  };
 
   return (
     <div className="page-wrapper">
@@ -36,16 +29,13 @@ export default function LoveLetter() {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          /* --- ✨ ĐÂY LÀ DÒNG ĐÃ THAY ĐỔI --- */
-          background: url("/hinh.png") repeat;
+          background: url("https://i.postimg.cc/xjPW48wc/hinh.png") repeat;
           background-size: 220px 220px;
           background-position: center;
           padding: 24px;
           position: relative;
           filter: brightness(1.02);
         }
-
-        /* ... (phần code còn lại giữ nguyên) ... */
 
         .envlope-wrapper {
           --envelope-width: clamp(220px, 70vw, 280px);
@@ -134,7 +124,7 @@ export default function LoveLetter() {
           z-index: 1;
         }
 
-        .lang-menu {
+        .letter-content {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -173,34 +163,7 @@ export default function LoveLetter() {
           text-align: left;
           font-size: clamp(1.2rem, 3.5vw, 1.8rem);
           padding: 1vw;
-        }
-
-        .lang-actions {
-          display: flex;
-          justify-content: center;
-          gap: 3vw;
-          padding: 2vw;
-          flex-wrap: wrap;
-        }
-
-        .btn {
-          background-color: #b9975b;
-          color: #fff;
-          border: none;
-          border-radius: 8px;
-          padding: 1.2vw 4vw;
-          cursor: pointer;
-          font-size: clamp(1.3rem, 3.5vw, 2rem);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-          font-family: 'Dancing Script', cursive;
-        }
-
-        .btn:hover {
-          background-color: #a47c48;
-        }
-
-        .cursor-pointer {
-          cursor: pointer;
+          line-height: 1.6;
         }
 
         @keyframes fadeIn {
@@ -215,7 +178,7 @@ export default function LoveLetter() {
         }
 
         @media (max-width: 500px) {
-          .lang-menu {
+          .letter-content {
             width: 90vw;
             height: 75vh;
             font-size: clamp(1.4rem, 4vw, 1.8rem);
@@ -227,57 +190,24 @@ export default function LoveLetter() {
         <div id="envelope" className={isOpen ? "open" : "close"}>
           <div className="front flap"></div>
           <div className="front pocket"></div>
-          <div className="letter">
-            {!selectedLang && <div>To: Minh Phương</div>}
+          <div className="letter" onClick={onLetterClick}>
+            <div>To: Minh Phương</div>
           </div>
         </div>
       </div>
 
-      {showLangMenu && (
-        <div className="lang-menu" role="dialog" aria-modal="true">
+      {showLetter && (
+        <div className="letter-content" role="dialog" aria-modal="true">
           <div className="close-x" onClick={closeAll}>
             ×
           </div>
           <div className="lang-body">
-            {!selectedLang && (
-              <div style={{ textAlign: "center" }}>
-                <div style={{ marginBottom: 20 }}>
-                  Please choose / Vui lòng chọn
-                </div>
-                <div className="lang-actions">
-                  <button
-                    className="btn"
-                    onClick={() => handleLangSelect("en")}
-                  >
-                    English
-                  </button>
-                  <button
-                    className="btn"
-                    onClick={() => handleLangSelect("vi")}
-                  >
-                    Tiếng Việt
-                  </button>
-                </div>
-              </div>
-            )}
-            {selectedLang === "en" && (
-              <div>
-                <h3 style={{ marginTop: 0 }}>Dear Jane Doe</h3>
-                <p style={{ lineHeight: 1.6 }}>
-                  The quick brown fox jumps over the lazy dog. This letter now
-                  scales beautifully with your screen ✨
-                </p>
-              </div>
-            )}
-            {selectedLang === "vi" && (
-              <div>
-                <h3 style={{ marginTop: 0 }}>Gửi Jane Doe</h3>
-                <p style={{ lineHeight: 1.6 }}>
-                  Đây là nội dung thư — và bảng thư này giờ sẽ tự co giãn theo
-                  màn hình 💖
-                </p>
-              </div>
-            )}
+            <h3 style={{ marginTop: 0 }}>Gửi Minh Phương 💌</h3>
+            <p>
+Hiện tại là 11:35 PM ngày 20/10/2025. Anh mới code xong cái web này và đang vắt chân lên trán chưa biết viết gì :))). Lúc đầu anh định tặng em ngày 20 cơ và cái này không có trong kế hoạch đâu, nhưng rồi nghĩ lại ngày 20 thì ko có cớ gì gặp em cả nên thui ngày 21 đưa vậy :)). Nghĩ lại thấy có nhiều thứ muốn viết nên làm cái web nàyy. Lúc viết a hơi bùn ngủ nghĩ gì viết đó thoi nên câu văn hơi lủng củng có rì em đọc đỡ nhaa hihi. Giờ nhìn lại anh mới để ý anh biết em mới hơn 1 tháng thui mà mình đi với nhau k bt bao nhiêu lần rùi, đi làm CLB rồi đi ăn đi học bài, đi mà ngày nào không thấy em là lại thấy thiêu thiếu🥲.  Lần đầu gặp em anh không thấy có gì đặc biệt đâu, chỉ thấy đi trễ thôi :)). Nhưng rồi dần dà anh có một cảm giác đặc biệt hơn dành cho em, có lẽ là từ ngày hội việc làm anh đã thích em mất rồi🫠. Anh viết ra những điều này chỉ để cho em biết thôi, anh không muốn tạo áp lực gì cho em nên em có thể trả lời anh hay không cũng được. Trước khi viết anh cũng chuẩn bị tâm lý rùi nếu em đọc xong mà không muốn nói chuyện với anh nữa thì cũng không sao đâu😌. Viết tới đây cũng dài rùi anh xin phép đi ngủ nhen, hẹn gặp lại em sauu. Cám ơn em đã dành thời gian đọc một chút tâm tư cụa anh 🥰
+<br />
+Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em được 🥲. Anh xin lỗi rấc nhìu. Mai em thi vật lý thì chúc em thi tốt nhen và cũng chúc mừng em vượt qua đợt thi đầu tiên ở đại học 🥰, phía trước vẫn sẽ còn nhiều thử thách nữa nhưng anh tin em sẽ vượt qua được thoii 🤗. Update chút vại thui hẹn gặp em ngày maii nhaa. Pái paii
+            </p>
           </div>
         </div>
       )}
