@@ -208,6 +208,9 @@ Hiện tại là 11:35 PM ngày 20/10/2025. Anh mới code xong cái web này v�
 <br />
 Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em được 🥲. Anh xin lỗi rấc nhìu. Mai em thi vật lý thì chúc em thi tốt nhen và cũng chúc mừng em vượt qua đợt thi đầu tiên ở đại học 🥰, phía trước vẫn sẽ còn nhiều thử thách nữa nhưng anh tin em sẽ vượt qua được thoii 🤗. Update chút vại thui hẹn gặp em ngày maii nhaa. Pái paii
               <br />
+              <br />
+              (Một ngày nào đó trong quá khứ)
+              <br />
               Nếu em quay lại đây, đọc được dòng này thì hãy nhớ rằng ngoài kia vẫn có người luôn dõi theo em và sẽ luôn sẵn sàng giúp em khi em cần 🥰. Anh thích em nhiều hơn em nghĩ đó.
               
             </p>
