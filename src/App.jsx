@@ -212,7 +212,11 @@ Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em đư
               (Một ngày nào đó trong quá khứ)
               <br />
               Nếu một ngày nào đó em quay lại đây, đọc được dòng này thì hãy nhớ rằng ngoài kia vẫn có người luôn dõi theo em và sẽ luôn sẵn sàng giúp em khi em cần nhé 🥰. Anh thích em nhiều hơn em nghĩ đó 🤭
-              
+              <br />
+              <br />
+              (Một ngày nào đó sau ngày bên trên)
+              <br />
+              Em mà có thấy anh phiền thì nói anh nhé, anh sẽ không làm phiền em nữa.
             </p>
           </div>
         </div>
