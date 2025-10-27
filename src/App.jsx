@@ -222,9 +222,9 @@ Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em đư
               </s>
               <br />
               <br />
-              <s>(Một ngày nào đó sau ngày bên trên)</s>
+              Oct 27 2025 - 01:41:23
               <br />
-              <s>Em mà có thấy anh phiền thì nói anh nhé, anh sẽ không làm phiền em nữa.</s>
+              
             </p>
           </div>
         </div>
