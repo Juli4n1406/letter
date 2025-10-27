@@ -216,7 +216,7 @@ Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em đư
               <br />
               (Một ngày nào đó sau ngày bên trên)
               <br />
-              Em mà có thấy anh phiền thì nói anh nhé, anh sẽ không làm phiền em nữa.
+              <s>Em mà có thấy anh phiền thì nói anh nhé, anh sẽ không làm phiền em nữa.</s>
             </p>
           </div>
         </div>
