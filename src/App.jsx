@@ -224,7 +224,7 @@ Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em đư
               <br />
               <span style={{ fontFamily: "Times New Roman, serif" }}>Oct 27 2025 - 01:41:23</span>
               <br />
-              <span style={{ fontFamily: "Times New Roman, serif" }}>Anh xin lỗi em thời gian qua anh đã làm phiền em nhiều rồi. Cám ơn em rất nhiều</span>
+              <span style={{ fontFamily: "Times New Roman, serif" }}>Anh xin lỗi em thời gian qua anh đã làm phiền em nhiều rồi. Cám ơn em nhé.</span>
               <br />
               <span style={{ fontFamily: "Times New Roman, serif" }}>Bái bai.</span>
             </p>
