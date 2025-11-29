@@ -204,27 +204,17 @@ export default function LoveLetter() {
           <div className="lang-body">
             <h3 style={{ marginTop: 0 }}>Gửi Minh Phương</h3>
             <p>
-            <s>
 Hiện tại là 11:35 PM ngày 20/10/2025. Anh mới code xong cái web này và đang vắt chân lên trán chưa biết viết gì :))). Lúc đầu anh định tặng em ngày 20 cơ và cái này không có trong kế hoạch đâu, nhưng rồi nghĩ lại ngày 20 thì ko có cớ gì gặp em cả nên thui ngày 21 đưa vậy :)). Nghĩ lại thấy có nhiều thứ muốn viết nên làm cái web nàyy. Lúc viết a hơi bùn ngủ nghĩ gì viết đó thoi nên câu văn hơi lủng củng có rì em đọc đỡ nhaa hihi. Giờ nhìn lại anh mới để ý anh biết em mới hơn 1 tháng thui mà mình đi với nhau k bt bao nhiêu lần rùi, đi làm CLB rồi đi ăn đi học bài, đi mà ngày nào không thấy em là lại thấy thiêu thiếu🥲.  Lần đầu gặp em anh không thấy có gì đặc biệt đâu, chỉ thấy đi trễ thôi :)). Nhưng rồi dần dà anh có một cảm giác đặc biệt hơn dành cho em, có lẽ là từ ngày hội việc làm anh đã thích em mất rồi🫠. Anh viết ra những điều này chỉ để cho em biết thôi, anh không muốn tạo áp lực gì cho em nên em có thể trả lời anh hay không cũng được. Trước khi viết anh cũng chuẩn bị tâm lý rùi nếu em đọc xong mà không muốn nói chuyện với anh nữa thì cũng không sao đâu😌. Viết tới đây cũng dài rùi anh xin phép đi ngủ nhen, hẹn gặp lại em sauu. Cám ơn em đã dành thời gian đọc một chút tâm tư cụa anh 🥰
-            </s>
               <br />
-              <s>
 Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em được 🥲. Anh xin lỗi rấc nhìu. Mai em thi vật lý thì chúc em thi tốt nhen và cũng chúc mừng em vượt qua đợt thi đầu tiên ở đại học 🥰, phía trước vẫn sẽ còn nhiều thử thách nữa nhưng anh tin em sẽ vượt qua được thoii 🤗. Update chút vại thui hẹn gặp em ngày maii nhaa. Pái paii
-              </s>
               <br />
               <br />
-              <s>
               (Một ngày nào đó trong quá khứ)
-              </s>
               <br />
-              <s>
               Nếu một ngày nào đó em quay lại đây, đọc được dòng này thì hãy nhớ rằng ngoài kia vẫn có người luôn dõi theo em và sẽ luôn sẵn sàng giúp em khi em cần nhé 🥰. Anh thích em nhiều hơn em nghĩ đó 🤭
-              </s>
               <br />
               <br />
               <span style={{ fontFamily: "Times New Roman, serif" }}>Oct 27 2025 - 01:41:23</span>
-              <br />
-              <span style={{ fontFamily: "Times New Roman, serif" }}>Anh xin lỗi em thời gian qua anh đã làm phiền em nhiều rồi. Cám ơn em nhé.</span>
               <br />
               <span style={{ fontFamily: "Times New Roman, serif" }}>Bái bai.</span>
             </p>
