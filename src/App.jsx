@@ -212,11 +212,6 @@ Update 21/10 : Sáng anh dậy không nổi nên không đến đưa cho em đư
               (Một ngày nào đó trong quá khứ)
               <br />
               Nếu một ngày nào đó em quay lại đây, đọc được dòng này thì hãy nhớ rằng ngoài kia vẫn có người luôn dõi theo em và sẽ luôn sẵn sàng giúp em khi em cần nhé 🥰. Anh thích em nhiều hơn em nghĩ đó 🤭
-              <br />
-              <br />
-              <span style={{ fontFamily: "Times New Roman, serif" }}>Oct 27 2025 - 01:41:23</span>
-              <br />
-              <span style={{ fontFamily: "Times New Roman, serif" }}>Bái bai.</span>
             </p>
           </div>
         </div>
